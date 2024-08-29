@@ -7,6 +7,13 @@
 
     <!-- font awesome cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/kTcFbIgrxKf0fTU6X9lqq5+3tG5aapyo6lf9dG1p+E5KNVhq5OGj0M7ln6zpHx11HiNf9cI3Y7S2w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- AOS CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+
+    <!-- AOS JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 
     <!-- custom css file link  -->
     <link rel="stylesheet" href="style.css">
@@ -37,7 +44,7 @@
 
 <!-- home section starts  -->
 
-<section class="home" id="home">
+<section class="home" id="home" data-aos="fade-up">
 
     <video autoplay muted loop class="background-video">
         <source src="video/v1.mp4" type="video/mp4">
@@ -52,13 +59,13 @@
             Data Engineering | Computer Vision | NLP |
             <br>Generative AI | Software Development 
         </h3>
-        <a href="https://tech-code24.net/" class="btn">Download CV</a>
+        <a href="file/cv/Ouchraa Mohamed CV.pdf" class="btn">Download CV</a>
     </div>
 </section>
 
 <!-- home section ends -->
 
-<section class="about" id="about">
+<section class="about" id="about" data-aos="fade-left">
 
     <div class="about-container">
         <div class="about-photo">
@@ -74,10 +81,9 @@
 
 </section>
 
-<!-- prevent    Portfolio   section starts  -->
 <!--        Portfolio    -->
 
-<section class="prevent" id="Portflio">
+<section class="portfolio" id="Portflio" data-aos="fade-left">
 
     <h1 class="heading"> Portfolio </h1>
 
@@ -86,55 +92,73 @@
         <div class="box">
             <img src="images/icone/data-processing.png" alt="">
             <h3>Data Preprocessing </h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, repudiandae aspernatur eum minus accusamus eligendi delectus ad? Similique, facilis esse?</p>
+            <p>
+                 Performed data preprocessing using Pandas, including data cleaning, transformation, and preparation for analysis. Utilized Pandas functions to handle missing values, normalize data, and perform data manipulation, ensuring a clean and ready dataset for further analysis or modeling.
+                </p>
         </div>
 
         <div class="box">
             <img src="images/icone/noun-object-recognition-6963387.png" alt="">
             <h3>Object Detection</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, repudiandae aspernatur eum minus accusamus eligendi delectus ad? Similique, facilis esse?</p>
+            <p>
+                Developed an object detection system for Moroccan vehicle license plates using YOLO (You Only Look Once). Implemented the YOLO algorithm to accurately detect and localize license plates in images, enhancing vehicle identification capabilities.
+            </p>
         </div>
 
         <div class="box">
             <img src="images/icone/facial-recognition.png" alt="">
             <h3>Face Recognition App</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, repudiandae aspernatur eum minus accusamus eligendi delectus ad? Similique, facilis esse?</p>
+            <p>
+                Developed a facial recognition web application using Django, integrating an SQLite database to store user information. Implemented facial recognition algorithms for authentication and created an intuitive user interface for photo capture.
+            </p>
         </div>
 
         <div class="box">
             <img src="images/icone/sentiment-analysis.png" alt="">
             <h3>Tweet Sentiment Analysis</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, repudiandae aspernatur eum minus accusamus eligendi delectus ad? Similique, facilis esse?</p>
+            <p>
+                Collected Twitter data using Selenium for web scraping and stored tweets in a MongoDB database. Performed text preprocessing and analysis with the NLTK library. Developed a sentiment analysis model to classify tweets and created interactive dashboards with Power BI to visualize the results.            </p>
         </div>
 
         <div class="box">
             <img src="images/icone/pandemic.png" alt="">
             <h3>covid-19 Case Prediction</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, repudiandae aspernatur eum minus accusamus eligendi delectus ad? Similique, facilis esse?</p>
+            <p>
+                Data cleaning and preparation on COVID-19 cases using PySpark for large-scale data processing.
+                Application of Machine Learning models with MLlib (Random Forest) and implementation of a Deep Learning model (LSTM) for case prediction.
+                Created data visualizations for better understanding of trends
+            </p>
         </div>
 
         <div class="box">
             <img src="images/icone/geolocation.png" alt="">
             <h3>Geolocation App</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, repudiandae aspernatur eum minus accusamus eligendi delectus ad? Similique, facilis esse?</p>
+            <p>
+                Developed a geolocation application using Django and Neo4j, integrating OSMX for accessing OpenStreetMap data. Used Folium to display an interactive OpenStreetMap. Implemented a search algorithm to find nearby points of interest (hotels, pharmacies, etc.) and created a user interface for selecting categories and displaying results.            </p>
         </div>
 
         <div class="box">
             <img src="images/icone/content-management-system_9752275 (1).png" alt="">
             <h3>Image Processing App</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, repudiandae aspernatur eum minus accusamus eligendi delectus ad? Similique, facilis esse?</p>
+            <p>
+                Designed an image processing application with a graphical user interface in Matlab. Implemented high-pass and low-pass filters for image enhancement and integrated the Hough transform for geometric shape detection. Developed an intuitive user interface for applying various filters and transformations
+            </p>
         </div>
 
         <div class="box">
             <img src="images/icone/classification.png" alt="">
             <h3>Image Classification</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, repudiandae aspernatur eum minus accusamus eligendi delectus ad? Similique, facilis esse?</p>
+            <p>
+                Developed an image classifier using Deep Learning with Convolutional Neural Networks (CNNs) to classify fruits and the MNIST dataset. Employed TensorFlow and Keras for building, training, and evaluating the model, achieving accurate classification of images based on visual features.
+            </p>
         </div>
 
         <div class="box">
             <img src="images/icone/online-recruitment.png" alt="">
             <h3>Management of Recruitement in Thesis Web App</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, repudiandae aspernatur eum minus accusamus eligendi delectus ad? Similique, facilis esse?</p>
+            <p>
+                Developed a comprehensive web application for thesis management and recruitment, with distinct user spaces for students and teachers. Implemented a thesis management system (submission, tracking, evaluation) using Django for the backend and SQLite for the database. Designed a responsive user interface with HTML, CSS, and JavaScript, integrating search and filtering features for theses and candidates.
+            </p>
         </div>
 
     </div>
@@ -145,12 +169,12 @@
 
 <!-- Education -->
 
-<section class="education" id="education">
+<section class="education" id="education" data-aos="fade-left">
     <video autoplay muted loop class="background-video">
         <source src="video/v2.mp4" type="video/mp4">
     </video>
     <div class="overlay"></div>
-    <h1 class="heading">My Education</h1>
+    <h1 class="heading">Education</h1>
     <div class="education-container">
         <!-- Master's Degree -->
         <div class="education-box">
@@ -178,8 +202,8 @@
 
 
 
-<section class="skills" id="skills">
-    <h1 class="heading">My Skills</h1>
+<section class="skills" id="skills" data-aos="fade-left">
+    <h1 class="heading">Skills</h1>
     <div class="skills-container">
         <!-- Deep Learning -->
         <div class="skill-box">
@@ -204,6 +228,7 @@
                 <div class="skill-item">K-Means Clustering</div>
                 <div class="skill-item">SVM</div>
                 <div class="skill-item">Decision Trees</div>
+                <div class="skill-item">...</div>
 
             </div>
         </div>
@@ -228,7 +253,6 @@
                 <div class="skill-item">Named Entity Recognition</div>
                 <div class="skill-item">Sentiment Analysis</div>
                 <div class="skill-item">Language Modeling</div>
-                <div class="skill-item">Machine Translation</div>
             </div>
         </div>
 
@@ -239,7 +263,6 @@
                 <div class="skill-item">Association Rules</div>
                 <div class="skill-item">Clustering</div>
                 <div class="skill-item">Anomaly Detection</div>
-                <div class="skill-item">Pattern Recognition</div>
             </div>
         </div>
 
@@ -250,8 +273,6 @@
                 <div class="skill-item">Hadoop</div>
                 <div class="skill-item">Spark</div>
                 <div class="skill-item">NoSQL Databases</div>
-                <div class="skill-item">Data Lakes</div>
-                <div class="skill-item">Distributed Computing</div>
             </div>
         </div>
 
@@ -270,10 +291,9 @@
         <div class="skill-box">
             <div class="skill-title">Artificial Intelligence (AI)</div>
             <div class="skill-content">
-                <div class="skill-item">Expert Systems</div>
-                <div class="skill-item">Fuzzy Logic</div>
-                <div class="skill-item">Genetic Algorithms</div>
-                <div class="skill-item">Knowledge Representation</div>
+                <div class="skill-item">Search Algorithms</div>
+                <div class="skill-item">Heuristics Algorithms</div>
+                <div class="skill-item">Game theory</div>
             </div>
         </div>
 
@@ -285,6 +305,7 @@
                 <div class="skill-item">Image Filtering</div>
                 <div class="skill-item">Morphological Operations</div>
                 <div class="skill-item">Histogram Equalization</div>
+                <div class="skill-item">Hough</div>
             </div>
         </div>
 
@@ -306,7 +327,6 @@
                 <div class="skill-item">Image Clustering</div>
                 <div class="skill-item">Image Retrieval</div>
                 <div class="skill-item">Feature Extraction</div>
-                <div class="skill-item">Pattern Recognition</div>
             </div>
         </div>
 
@@ -318,7 +338,7 @@
                 <div class="skill-item">Java</div>
                 <div class="skill-item">C/C++</div>
                 <div class="skill-item">JavaScript</div>
-                <div class="skill-item">SQL</div>
+                <div class="skill-item">php</div>
             </div>
         </div>
 
@@ -327,21 +347,30 @@
             <div class="skill-title">Databases</div>
             <div class="skill-content">
                 <div class="skill-item">MySQL</div>
-                <div class="skill-item">PostgreSQL</div>
+                <div class="skill-item">Neo4J</div>
                 <div class="skill-item">MongoDB</div>
                 <div class="skill-item">SQLite</div>
                 <div class="skill-item">Oracle</div>
             </div>
         </div>
-
+        <div class="skill-box">
+            <div class="skill-title">Tools</div>
+            <div class="skill-content">
+                <div class="skill-item">Power BI</div>
+                <div class="skill-item">Excel</div>
+                <div class="skill-item">Word</div>
+                <div class="skill-item">Jetbrains Tools</div>
+                <div class="skill-item">...</div>
+            </div>
+        </div>
     </div>
 </section>
 
 <!--   Contact   -->
 
-<section class="contact" id="contact">
+<section class="contact" id="contact" data-aos="fade-left">
     <video autoplay muted loop class="background-video">
-        <source src="video/v4.mp4" type="video/mp4">
+        <source src="video/v7.mp4" type="video/mp4">
     </video>
     <div class="overlay"></div>
     <h1 class="heading">Contact Me</h1>
@@ -367,13 +396,23 @@
 
 <!-- footer section starts  -->
 
-<div class="footer">
-
-    <div class="box-container">
-
-        
-
-
+<div class="footer" data-aos="fade-left">
+    <h3> Follow Me</h3>
+    <!-- Icônes de médias sociaux -->
+    <div class="social-icons">
+        <a href="https://www.linkedin.com/in/mohamedouchraa" target="_blank" class="social-icon">
+            <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://wa.me/+212690003050" target="_blank" class="social-icon">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+        <a href="https://www.instagram.com/mohamedouchraa0" target="_blank" class="social-icon">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="mailto:mohamedouchraa0@gmail.com" class="social-icon">
+            <i class="fas fa-envelope"></i>
+        </a>
+        <!-- Ajoutez d'autres icônes si nécessaire -->
     </div>
 
     <h1 class="credit"> created by <a href="www.linkedin.com/in/mohamedouchraa"> Ouchraa Mohamed</a> &copy; copyright @ 2024 </h1>
@@ -385,7 +424,7 @@
 <!-- scroll top  -->
 
 <a href="#home" class="scroll-top">
-    <img src="images/scroll-img.png" alt="">
+    <img src="images/up-arrow (1).png" alt="">
 </a>
 
 
@@ -398,6 +437,12 @@
 <!-- custom js file link  -->
 <script src="script.js"></script>
 
+<script>
+    AOS.init({
+      duration: 1200, // Duration of animations in milliseconds
+      once: true,     // Whether animation should happen only once - while scrolling down
+    });
+</script>
 
 </body>
 </html>

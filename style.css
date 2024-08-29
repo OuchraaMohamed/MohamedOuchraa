@@ -38,7 +38,7 @@ section{
 [data-aos] {
     opacity: 0;
     transition-property: opacity, transform;
-    transition-duration: 1s;
+    transition-duration: 0.5s;
 }
 
 [data-aos].aos-animate {

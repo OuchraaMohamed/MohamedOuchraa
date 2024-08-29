@@ -88,3 +88,23 @@ document.querySelectorAll('.skill-box').forEach(box => {
       box.querySelector('.skill-content').style.opacity = 0;
   });
 });
+
+
+
+document.querySelectorAll('.education-box').forEach(box => {
+  box.addEventListener('mouseenter', () => {
+      box.querySelector('.university-logo').style.transform = 'scale(1.1)';
+  });
+
+  box.addEventListener('mouseleave', () => {
+      box.querySelector('.university-logo').style.transform = 'scale(1)';
+  });
+});
+
+
+
+document.querySelector('.contact-form').addEventListener('submit', function(event) {
+  event.preventDefault(); // Empêche le comportement par défaut
+  alert('Your message has been sent successfully!');
+  // Vous pouvez ajouter une logique pour envoyer les données à un serveur ici
+});

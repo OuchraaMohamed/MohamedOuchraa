@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/icone/resume-icone.png">
+
     <title>Portflio</title>
 
     <!-- font awesome cdn link  -->
@@ -374,6 +376,23 @@
     </video>
     <div class="overlay"></div>
     <h1 class="heading">Contact Me</h1>
+    <!-- Div pour afficher les messages 
+    <?php if (isset($_GET['success'])): ?>
+        <div class="message">
+            <?php 
+                if ($_GET['success'] == 'true') {
+                    echo '<p>Your message has been sent successfully!</p>';
+                } elseif ($_GET['success'] == 'false') {
+                    echo '<p>Failed to send your message. Please try again later.</p>';
+                } elseif ($_GET['success'] == 'invalid-email') {
+                    echo '<p>Invalid email address. Please try again.</p>';
+                } elseif ($_GET['success'] == 'invalid-method') {
+                    echo '<p>Invalid request method.</p>';
+                }
+            ?>
+        </div>
+        <?php endif; ?>
+        -->
     <form class="contact-form" action="#" method="post">
         <div class="input-box">
             <input type="text" name="name" required>

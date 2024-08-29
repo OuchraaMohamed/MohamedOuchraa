@@ -100,11 +100,3 @@ document.querySelectorAll('.education-box').forEach(box => {
       box.querySelector('.university-logo').style.transform = 'scale(1)';
   });
 });
-
-
-
-document.querySelector('.contact-form').addEventListener('submit', function(event) {
-  event.preventDefault(); // Empêche le comportement par défaut
-  alert('Your message has been sent successfully!');
-  // Vous pouvez ajouter une logique pour envoyer les données à un serveur ici
-});

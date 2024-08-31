@@ -19,7 +19,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Build the email headers.
     $headers = "From: $name <$email>";
 
-    // Send the email.
+    // Send the email. 
     if (mail($to, $subject, $email_content, $headers)) {
         // Redirect to a thank you page (optional)
         echo "Thank you! Your message has been sent.";

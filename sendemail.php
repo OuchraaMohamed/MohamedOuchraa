@@ -14,7 +14,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 "Here are the details:\n\n" .
                 "Name: $name\n" .
                 "Email: $email\n\n" .
-                "Message:\n$message";
+                "Message:\n$message"; 
 
         $headers = "From: $email" . "\r\n" .
                    "Reply-To: $email" . "\r\n" .

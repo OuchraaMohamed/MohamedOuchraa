@@ -57,25 +57,6 @@ $(document).ready(function(){
 
 });
 
-/*
-// Sélectionne tous les éléments skill-box
-const skillBoxes = document.querySelectorAll('.skill-box');
-
-skillBoxes.forEach(box => {
-    const title = box.querySelector('h3');
-    const technicalSkills = box.querySelector('.technical-skills');
-
-    box.addEventListener('mouseenter', () => {
-        title.style.opacity = '0'; // Masque le titre
-        technicalSkills.style.opacity = '1'; // Affiche les sous-compétences
-    });
-
-    box.addEventListener('mouseleave', () => {
-        title.style.opacity = '1'; // Réaffiche le titre
-        technicalSkills.style.opacity = '0'; // Masque les sous-compétences
-    });
-});
-*/
 
 document.querySelectorAll('.skill-box').forEach(box => {
   box.addEventListener('mouseenter', () => {

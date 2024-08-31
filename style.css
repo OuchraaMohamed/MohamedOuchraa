@@ -9,7 +9,7 @@
     font-family: 'Poppins', sans-serif;
     margin:0; padding:0;
     box-sizing: border-box;
-    text-decoration: none;
+    text-decoration: none; 
     outline: none;
     border:none;
     text-transform: capitalize;
@@ -237,6 +237,7 @@ header.sticky{
     justify-content: center;
     padding-bottom: 20px;
     flex-wrap: wrap;
+    margin-bottom: 15px;
     align-content: flex-start;
 }
 
@@ -252,6 +253,7 @@ header.sticky{
     border-radius: .5rem;
     margin: 1rem;
     padding: 1rem;
+
     text-align: center;
     position: relative; /* Needed for absolute positioning of children */
     overflow: hidden; /* Ensure hidden content does not overflow */
